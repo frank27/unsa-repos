@@ -1,6 +1,6 @@
 # Matrix Multiplication: Standard vs. DGEMM routine
 
-This project compares the performance of the **Standard ()** matrix multiplication method against **DGEMM routine **. It features a high-performance C++ backend managed by CMake and a Python-based data visualization suite.
+This project compares the performance of the **Standard Algorithm** matrix multiplication method against **DGEMM routine**. It features a high-performance C++ backend managed by CMake and a Python-based data visualization suite.
 
 ## 📋 Prerequisites
 
