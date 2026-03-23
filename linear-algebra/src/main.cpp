@@ -1,9 +1,7 @@
 #include "LinearAlgebraAssignments.h"
-#include "Diagonalization.h"
 
 int main()
 {
-    // LinearAlgebraAssignments().execute();
-    Diagonalization().Execute();
+    LinearAlgebraAssignments().execute();
     return 0;
 }

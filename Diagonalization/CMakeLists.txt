@@ -11,8 +11,10 @@ add_compile_options(-O2 -Wall)
 
 set (project_sources
     src/main.cpp
-    src/LinearAlgebraAssignments.h
-    src/Utils.h
+    src/DiagProver.h
+    src/DiagProver.cpp
+    src/Diagonalization.h
+    src/Diagonalization.cpp
 )
 
 add_executable(MultiplyAnalysis ${project_sources})
