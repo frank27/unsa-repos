@@ -13,8 +13,17 @@ static void runSVD(const Matrix &A)
     res.print();
 
     double err = SVDSolver::reconstruction_error(A, res);
+    double tolerance = 1e-12;
     std::cout << "\n  ||A - U·Σ·Vᵀ||_F = "
               << std::scientific << std::setprecision(4) << err << "\n";
+    if (err < tolerance)
+    {
+        std::cout << "Valid reconstruction (||A - U·Σ·Vᵀ||_F < " << tolerance << ")\n";
+    }
+    else
+    {
+        std::cout << "Invalid reconstruction (||A - U·Σ·Vᵀ||_F > " << tolerance << ")\n";
+    }
 }
 
 int main(int argc, char *argv[])
