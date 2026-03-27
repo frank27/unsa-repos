@@ -1,8 +1,4 @@
 
-# Sample 4x3 matrix for SVD demo
-# Format: rows cols
-#         row data (whitespace separated)
-
-2 3
-1 0 1
--2 1 0
+ 2 2
+ 1 -0.8
+ 0 1
