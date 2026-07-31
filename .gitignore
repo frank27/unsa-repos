@@ -32,3 +32,8 @@
 *.app
 
 */build/**
+Optimization/data/wine.csv
+Optimization/img/lena.jpeg
+Optimization/img/input.pgm
+.gitignore
+Optimization/img/output.pgm
